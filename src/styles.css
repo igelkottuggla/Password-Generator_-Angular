@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'bulma/css/bulma.css';
+
+body {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle, rgba(2,0,36,0.7736263736263737) 0%, rgba(9,9,121,0.7472527472527473) 35%, rgba(0,212,255,0.4527472527472527) 100%);
+}
+
+.field:not(:first-of-type) label {
+  margin-left: 0.5rem;
+}
+
+.container {
+  margin-top: 5%;
+  width: 80%;
+}
